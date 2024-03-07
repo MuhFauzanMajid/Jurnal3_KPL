@@ -61,7 +61,7 @@ namespace Modul3_1302220144
 
         private void button10_Click(object sender, EventArgs e)
         {
-            button11_Click();
+            label1.Text = angka1 + angka2;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -158,7 +158,7 @@ namespace Modul3_1302220144
             int i = 0;
             if (i == 0)
             {
-                 String angka1 = label1.Text;
+                String angka1 = label1.Text;
 
                 i++;
             }
